@@ -1,0 +1,45 @@
+{
+  "name": "blog-db-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "bin": {
+    "note": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "watch": "tsc --watch & nodemon dist",
+    "refresh": "rm -rf ./node_modules ./packngage-lock.json && npm install",
+    "build": "tsc",
+    "publish": "npm i -g",
+    "purge": "rm -rf ./dist/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/ts-command-line": "^4.2.4",
+    "@octokit/rest": "^16.25.5",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.0.2",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander-ts": "^0.1.5",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "g": "^2.0.1",
+    "guid-typescript": "^1.0.9",
+    "inquirer": "^6.3.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "nodemon": "^1.19.0",
+    "reflect-metadata": "^0.1.13",
+    "simple-git": "^1.113.0",
+    "touch": "^3.1.0",
+    "typeform": "^1.0.1",
+    "typeorm": "^0.2.17"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
