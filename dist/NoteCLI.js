@@ -5,14 +5,13 @@ const clear = require('clear');
 const figlet = require('figlet');
 // const path = require('path');
 const ts_command_line_1 = require("@microsoft/ts-command-line");
-const actions_1 = require("./actions");
 class NoteCLI extends ts_command_line_1.CommandLineParser {
     constructor() {
         super({
             toolFilename: 'note',
             toolDescription: 'Take notes without tabbing out!'
         });
-        this.addAction(new actions_1.NoteAction());
+        // this.addAction(new NoteAction());
     }
     onDefineParameters() {
         this._verbose = this.defineFlagParameter({

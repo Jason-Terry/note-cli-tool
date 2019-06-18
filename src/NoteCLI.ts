@@ -18,7 +18,7 @@ export class NoteCLI extends CommandLineParser {
       toolDescription: 'Take notes without tabbing out!'
     });
 
-    this.addAction(new NoteAction());
+    // this.addAction(new NoteAction());
   }
 
   protected onDefineParameters(): void { // abstract
