@@ -31,7 +31,7 @@
     "guid-typescript": "^1.0.9",
     "inquirer": "^6.3.1",
     "lodash": "^4.17.11",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "nodemon": "^1.19.0",
     "reflect-metadata": "^0.1.13",
     "simple-git": "^1.113.0",
