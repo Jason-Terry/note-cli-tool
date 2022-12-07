@@ -34,7 +34,7 @@
     "minimist": "^1.2.0",
     "nodemon": "^1.19.0",
     "reflect-metadata": "^0.1.13",
-    "simple-git": "^1.113.0",
+    "simple-git": "^3.15.0",
     "touch": "^3.1.0",
     "typeform": "^1.0.1",
     "typeorm": "^0.2.17"
